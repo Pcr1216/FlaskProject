@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 Heello this is LOKI
+=======
+<<<<<<< HEAD
+Hllo mukul is here already im not 
+now mukul is permanently here you cannot remove
+=======
+no you are not
+>>>>>>> b13feb87a11c13b8e750bcfb5294059a02fce987
+>>>>>>> af34a178e6b6b23ed627e9ad13f371066c05c6c1
