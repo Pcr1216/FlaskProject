@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Hllo mukul is here already im not 
 now mukul is permanently here you cannot remove
+=======
+no you are not
+>>>>>>> b13feb87a11c13b8e750bcfb5294059a02fce987
