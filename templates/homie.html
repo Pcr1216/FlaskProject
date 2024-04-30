@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to SMVITA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ae92cf;
+        }
+        .header {
+            background-color: #ffb7b7;
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .tile {
+            width: 200px; /* Reduced tile width */
+            height: 200px; /* Reduced tile height */
+            margin: 10px; /* Reduced margin for spacing */
+            background-color: #ffffff;
+            border-radius: 20px; /* Increased border radius */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            line-height: 200px;
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            font-size: 24px; /* Reduced font size */
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .tile:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <img src="/static/smvita.png" alt="smvitalogo" class="logo">
+    <h1>Welcome to SMVITA</h1>
+</div>
+
+<div class="container">
+    <a href="/accommodation" class="tile" style="background-color: #ffa500;">Accommodation</a>
+    <a href="/tiffin" class="tile" style="background-color: #5bc0de;">Tiffin Service</a>
+    <a href="/restaurants" class="tile" style="background-color: #d9534f;">Restros</a>
+    <a href="/clinic" class="tile" style="background-color: #5cb85c;">Clinic</a>
+    <a href="/medicals" class="tile" style="background-color: #f0ad4e;">Medicals</a>
+</div>
+
+</body>
+</html>

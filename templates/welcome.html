@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask API Example</title>
+</head>
+<body bgcolor="wheat">
+<marquee
+  direction="down"
+  width="250"
+  height="200"
+  behavior="alternate"
+  style="border:solid">
+    <h1><marquee direction="left" behavior="alternate" >*</marquee></h1>
+</marquee>
+    <ul><marquee loop="2">
+    {% for person in data %}
+        <li>{{ person }}</li>
+    {% endfor %}
+        </marquee>
+    </ul>
+</body>
+</html>
